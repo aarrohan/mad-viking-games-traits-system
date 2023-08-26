@@ -1,0 +1,20 @@
+{
+    "edition": 19,
+    "name": "Berserker #19",
+    "description": "",
+    "animation_url": "ipfs://CID/19.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Strong"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Genuine"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Provocative"
+        }
+    ]
+}

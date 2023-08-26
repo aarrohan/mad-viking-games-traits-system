@@ -1,0 +1,20 @@
+{
+    "edition": 93,
+    "name": "Berserker #93",
+    "description": "",
+    "animation_url": "ipfs://CID/93.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Intuitive"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Savage"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Hedonistic"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "value": "Vigorous",
+    "weight": 50
+  },
+  {
+    "value": "Fearless",
+    "weight": 50
+  },
+  {
+    "value": "Adventurous",
+    "weight": 50
+  },
+  {
+    "value": "Hearty",
+    "weight": 50
+  },
+  {
+    "value": "Strong",
+    "weight": 50
+  },
+  {
+    "value": "Loyal",
+    "weight": 50
+  },
+  {
+    "value": "Resilient",
+    "weight": 50
+  },
+  {
+    "value": "Passionate",
+    "weight": 50
+  },
+  {
+    "value": "Driven",
+    "weight": 38
+  },
+  {
+    "value": "Confident",
+    "weight": 38
+  },
+  {
+    "value": "Honorable",
+    "weight": 38
+  },
+  {
+    "value": "Savage",
+    "weight": 38
+  },
+  {
+    "value": "Talented",
+    "weight": 38
+  },
+  {
+    "value": "Intuitive",
+    "weight": 38
+  },
+  {
+    "value": "Adaptable",
+    "weight": 38
+  },
+  {
+    "value": "Charismatic",
+    "weight": 38
+  },
+  {
+    "value": "Intelligent",
+    "weight": 10
+  },
+  {
+    "value": "Agile",
+    "weight": 10
+  },
+  {
+    "value": "Wise",
+    "weight": 10
+  },
+  {
+    "value": "Mighty",
+    "weight": 10
+  },
+  {
+    "value": "Genuine",
+    "weight": 10
+  },
+  {
+    "value": "Unyielding",
+    "weight": 10
+  },
+  {
+    "value": "Menacing",
+    "weight": 10
+  },
+  {
+    "value": "Heroic",
+    "weight": 1.5
+  },
+  {
+    "value": "Majestic",
+    "weight": 1.5
+  },
+  {
+    "value": "Relentless",
+    "weight": 1.5
+  },
+  {
+    "value": "Indomitable",
+    "weight": 1.5
+  },
+  {
+    "value": "Trollblodded",
+    "weight": 1.5
+  },
+  {
+    "value": "Worthy",
+    "weight": 1.5
+  },
+  {
+    "value": "Irregular",
+    "weight": 0.05
+  }
+]

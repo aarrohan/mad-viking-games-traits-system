@@ -1,0 +1,20 @@
+{
+    "edition": 31,
+    "name": "Berserker #31",
+    "description": "",
+    "animation_url": "ipfs://CID/31.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Fearless"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Passionate"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Delicate"
+        }
+    ]
+}

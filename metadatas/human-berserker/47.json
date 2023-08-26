@@ -1,0 +1,20 @@
+{
+    "edition": 47,
+    "name": "Berserker #47",
+    "description": "",
+    "animation_url": "ipfs://CID/47.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Adventurous"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Genuine"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Stupid"
+        }
+    ]
+}

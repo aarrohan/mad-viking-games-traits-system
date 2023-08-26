@@ -1,0 +1,20 @@
+{
+    "edition": 36,
+    "name": "Berserker #36",
+    "description": "",
+    "animation_url": "ipfs://CID/36.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Charismatic"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Intelligent"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Passive"
+        }
+    ]
+}

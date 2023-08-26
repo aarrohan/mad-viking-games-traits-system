@@ -1,0 +1,20 @@
+{
+    "edition": 7,
+    "name": "Berserker #7",
+    "description": "",
+    "animation_url": "ipfs://CID/7.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Adventurous"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Talented"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Crude"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "edition": 9,
+    "name": "Berserker #9",
+    "description": "",
+    "animation_url": "ipfs://CID/9.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Charismatic"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Adaptable"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Forgetful"
+        }
+    ]
+}

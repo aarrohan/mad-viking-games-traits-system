@@ -1,0 +1,20 @@
+{
+    "edition": 2,
+    "name": "Berserker #2",
+    "description": "",
+    "animation_url": "ipfs://CID/2.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Adventurous"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Loyal"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Selfish"
+        }
+    ]
+}

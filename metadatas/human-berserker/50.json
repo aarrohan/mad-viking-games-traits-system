@@ -1,0 +1,20 @@
+{
+    "edition": 50,
+    "name": "Berserker #50",
+    "description": "",
+    "animation_url": "ipfs://CID/50.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Hearty"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Genuine"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Clumsy"
+        }
+    ]
+}

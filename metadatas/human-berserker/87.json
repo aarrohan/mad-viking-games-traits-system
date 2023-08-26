@@ -1,0 +1,20 @@
+{
+    "edition": 87,
+    "name": "Berserker #87",
+    "description": "",
+    "animation_url": "ipfs://CID/87.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Vigorous"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Charismatic"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Lazy"
+        }
+    ]
+}

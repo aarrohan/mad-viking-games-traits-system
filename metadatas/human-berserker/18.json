@@ -1,0 +1,20 @@
+{
+    "edition": 18,
+    "name": "Berserker #18",
+    "description": "",
+    "animation_url": "ipfs://CID/18.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Honorable"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Savage"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Mean"
+        }
+    ]
+}

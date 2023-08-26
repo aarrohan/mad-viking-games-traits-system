@@ -1,0 +1,20 @@
+{
+    "edition": 79,
+    "name": "Berserker #79",
+    "description": "",
+    "animation_url": "ipfs://CID/79.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Driven"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Charismatic"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Stupid"
+        }
+    ]
+}

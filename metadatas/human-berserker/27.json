@@ -1,0 +1,20 @@
+{
+    "edition": 27,
+    "name": "Berserker #27",
+    "description": "",
+    "animation_url": "ipfs://CID/27.mp4",
+    "attributes": [
+        {
+            "trait_type": "Positive 1",
+            "value": "Savage"
+        },
+        {
+            "trait_type": "Positive 2",
+            "value": "Confident"
+        },
+        {
+            "trait_type": "Negative",
+            "value": "Sloppy"
+        }
+    ]
+}
