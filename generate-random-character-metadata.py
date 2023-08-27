@@ -12,33 +12,25 @@ import os
 # ==============
 TOTAL_METADATAS = 1000  # Number of characters you want to generate
 
-METADATA_CHARACTER_NAME = "Berserker"  # Character name
+METADATA_CHARACTER_NAME = "Random Character"  # Character name
 METADATA_ASSET_TYPE = "video"  # Asset type (image or video)
 METADATA_ASSET_FORMAT = "mp4"  # Asset format (ex. png, jpg, gif, mp4, mov)
 
 POSITIVE_TRAITS_JSON_FILES_DIRECTORY = (
     "./jsons/positive-traits/"  # Directory of the positive traits json file
 )
-POSITIVE_TRAITS_JSON_FILE_NAME = "human-berserker.json"  # Name of the file, that contains the positive traits of the character
 
 NEGATIVE_TRAITS_JSON_FILE_DIRECTORY = (
     "./jsons/"  # Directory of the negative traits json file
 )
 NEGATIVE_TRAITS_JSON_FILE_NAME = "negative-traits.json"  # Name of the file, that contains the negative traits of the character
 
-METADATA_DIRECTORY_NAME = "human-berserker"  # Name of the directory, where the generated metadata files will be saved
+METADATA_DIRECTORY_NAME = "random-character"  # Name of the directory, where the generated metadata files will be saved
 # =x=x=x==x=x=x=
 
 # ======================================
-# === Positive and negative traits json file data ===
+# === Negative traits json file data ===
 # ======================================
-positive_traits_json_file_path = (
-    POSITIVE_TRAITS_JSON_FILES_DIRECTORY + POSITIVE_TRAITS_JSON_FILE_NAME
-)
-
-positive_traits_json_file = open(positive_traits_json_file_path, "r")
-positive_traits_json_file_data = json.load(positive_traits_json_file)
-
 negative_traits_json_file_path = (
     NEGATIVE_TRAITS_JSON_FILE_DIRECTORY + NEGATIVE_TRAITS_JSON_FILE_NAME
 )
@@ -62,36 +54,6 @@ def count_trait_weight_repeats(traits, weight):
 
 
 # =x=x=x================================x=x=x=
-
-# ===============================
-# === Positive 1 and 2 traits ===
-# ===============================
-positive_1_traits = []
-positive_1_trait_weights = []
-
-for trait in positive_traits_json_file_data:
-    positive_1_traits.append(trait["value"].capitalize())
-
-for trait in positive_traits_json_file_data:
-    totalTraitWeightRepeats = count_trait_weight_repeats(
-        positive_traits_json_file_data, trait["weight"]
-    )
-
-    positive_1_trait_weights.append(round(trait["weight"] / totalTraitWeightRepeats, 2))
-
-positive_2_traits = []
-positive_2_trait_weights = []
-
-for trait in positive_traits_json_file_data:
-    positive_2_traits.append(trait["value"].capitalize())
-
-for trait in positive_traits_json_file_data:
-    totalTraitWeightRepeats = count_trait_weight_repeats(
-        positive_traits_json_file_data, trait["weight"]
-    )
-
-    positive_2_trait_weights.append(round(trait["weight"] / totalTraitWeightRepeats, 2))
-# =x=x=x===================x=x=x=
 
 # ======================================
 # === All characters positive traits ===
@@ -149,7 +111,7 @@ def create_new_metadata():
 
     new_positive_1_trait["trait_type"] = "Positive 1"
     new_positive_1_trait["value"] = random.choices(
-        positive_1_traits, positive_1_trait_weights
+        all_characters_positive_traits, all_characters_positive_trait_weights
     )[0]
 
     # New positive 2 trait
@@ -157,7 +119,7 @@ def create_new_metadata():
 
     new_positive_2_trait["trait_type"] = "Positive 2"
     new_positive_2_trait["value"] = random.choices(
-        positive_2_traits, positive_2_trait_weights
+        all_characters_positive_traits, all_characters_positive_trait_weights
     )[0]
 
     # New negative trait
@@ -270,7 +232,6 @@ def isAllMetadatasUnique(metadatas):
 # ===================
 # === Close files ===
 # ===================
-positive_traits_json_file.close()
 negative_traits_json_file.close()
 # =x=x=x=======x=x=x=
 
