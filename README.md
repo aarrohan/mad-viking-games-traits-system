@@ -22,6 +22,14 @@ cd mad-viking-games-traits-system
 
 4. Open the directory in your preferred IDE
 
+## Usage
+
+1. Open one of the .py scripts
+
+2. Adjust the "Config" section according to your needs
+
+3. Run the script
+
 ## Scripts
 
 | File                                  | Description                         |
