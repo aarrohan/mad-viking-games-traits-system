@@ -6,19 +6,28 @@ Mad Viking Games is a gaming studio making games in Unreal Engine 5 based on Nor
 
 Please follow the instructions below to setup this project in your machine:
 
-1. Clone this repository:
+1. Install Python in your machine
+
+2. Clone this repository:
 
 ```bash
 git clone https://github.com/aarrohan/mad-viking-games-frontend#mad-viking-games
 ```
 
-2. Go to the cloned project directory:
+3. Go to the cloned project directory:
 
 ```bash
 cd mad-viking-games-traits-system
 ```
 
-3. Open the directory in your preferred IDE
+4. Open the directory in your preferred IDE
+
+## Scripts
+
+| File                                  | Description                         |
+| ------------------------------------- | ----------------------------------- |
+| generate-character-metadata.py        | Generate character metadatas        |
+| generate-random-character-metadata.py | Generate random character metadatas |
 
 ## Libraries Used
 
