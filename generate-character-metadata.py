@@ -114,6 +114,8 @@ for filename in os.listdir(POSITIVE_TRAITS_JSON_FILES_DIRECTORY):
         all_characters_positive_trait_weights.append(
             round(trait["weight"] / totalTraitWeightRepeats, 2)
         )
+
+    json_file.close()
 # =x=x=x==========================x=x=x=
 
 # =================
@@ -270,6 +272,7 @@ def isAllMetadatasUnique(metadatas):
 # === Close files ===
 # ===================
 positive_traits_json_file.close()
+negative_traits_json_file.close()
 # =x=x=x=======x=x=x=
 
 # ==============
